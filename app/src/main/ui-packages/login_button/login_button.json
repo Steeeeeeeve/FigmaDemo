@@ -1,14 +1,14 @@
 {
-  "name": "button",
+  "name": "login_button",
   "version": 32,
   "source-key": {
     "type": "figma",
     "file": "9lKHhpWOAEbKZFiV2y7nha",
     "node": "128:382",
-    "version": "4742662065",
+    "version": "4743522697",
     "component-id": "00602a965c1339c0fa2a29fe64693c589f773756"
   },
-  "default": "Button",
+  "default": "LoginButton",
   "design": {
     "atoms": [
       {
@@ -30,11 +30,11 @@
       }
     ],
     "modes": {
-      "Button": {
+      "LoginButton": {
         "rules": [
           {
             "id": "top_level",
-            "tap-handler": "$onClick",
+            "tap-handler": "$onCLick",
             "is-structured": "false",
             "children": [
               "Button"
@@ -103,7 +103,7 @@
     }
   },
   "parameters": {
-    "onClick": {
+    "onCLick": {
       "data-type": "void-callback",
       "required": false,
       "description": ""
@@ -116,7 +116,7 @@
   },
   "previews": [
     {
-      "design": "Button",
+      "design": "LoginButton",
       "size": {
         "width": 343.0,
         "height": 52.0
