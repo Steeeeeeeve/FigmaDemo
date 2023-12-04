@@ -1,0 +1,6 @@
+{
+    "target": "LoginButton",
+    "package": "com.example.figmacoopt.loginbutton",
+    "generateImplementation": true,
+    "generatePreviews": true
+}

@@ -30,5 +30,5 @@ class MainActivity : ComponentActivity() {
 @Preview
 @Composable
 fun button() {
-    LoginButton(title = "Login")
+    LoginButton()
 }
