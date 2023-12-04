@@ -1,14 +1,14 @@
 {
-  "name": "login_button",
+  "name": "custom_button",
   "version": 32,
   "source-key": {
     "type": "figma",
     "file": "ZhvFeL2UuHzWYed0MtjIUI",
-    "node": "1:12",
-    "version": "4743760773",
-    "component-id": "d31bcf4d8897b881200e61ddc973d57f86d737d9"
+    "node": "23:10",
+    "version": "4744301738",
+    "component-id": "5b8136c559176a9898152ecc3212c40ffd0453ff"
   },
-  "default": "LoginButton",
+  "default": "CustomButton",
   "design": {
     "atoms": [
       {
@@ -18,7 +18,7 @@
       },
       {
         "type": "vector",
-        "id": "ButtonBackground"
+        "id": "BackgroundColour"
       },
       {
         "type": "text",
@@ -30,32 +30,22 @@
       }
     ],
     "modes": {
-      "LoginButton": {
+      "CustomButton": {
         "rules": [
           {
             "id": "top_level",
+            "tap-handler": "$onClick",
             "is-structured": "false",
             "children": [
-              "ButtonBackground",
+              "BackgroundColour",
               "text",
               "icon"
             ],
             "clip-content": "false"
           },
           {
-            "id": "ButtonBackground",
+            "id": "BackgroundColour",
             "border-radius": "30.0",
-            "alignment": {
-              "horizontal": {
-                "attachment": "start",
-                "offset": "-1.0"
-              },
-              "vertical": {
-                "attachment": "start",
-                "offset": "-1.0"
-              }
-            },
-            "tap-handler": "$onClick",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "proportional",
@@ -66,15 +56,15 @@
                 "value": "1.0"
               }
             },
-            "vector-content": "button_background.svg"
+            "vector-content": "background_colour.svg"
           },
           {
             "id": "text",
             "margin": {
-              "left": "87.0",
-              "top": "17.0",
-              "right": "97.0",
-              "bottom": "16.0"
+              "left": "89.0",
+              "top": "19.0",
+              "right": "60.0",
+              "bottom": "18.0"
             },
             "size-constraints": {
               "width-constraints": {
@@ -102,9 +92,9 @@
           {
             "id": "icon",
             "margin": {
-              "left": "37.0",
-              "top": "17.0",
-              "right": "255.0",
+              "left": "31.0",
+              "top": "21.0",
+              "right": "226.0",
               "bottom": "17.0"
             },
             "is-structured": "false",
@@ -134,10 +124,10 @@
   },
   "previews": [
     {
-      "design": "LoginButton",
+      "design": "CustomButton",
       "size": {
-        "width": 316.0,
-        "height": 58.0
+        "width": 281.0,
+        "height": 62.0
       },
       "parameters": {
         "text": "Hello World",
@@ -157,12 +147,7 @@
           },
           {
             "type": "vector",
-            "margin": {
-              "left": "3.0",
-              "top": "2.0",
-              "right": "3.0",
-              "bottom": "2.0"
-            },
+            "margin": "1.0",
             "size-constraints": {
               "width-constraints": {
                 "sizing-mode": "proportional",
@@ -173,7 +158,7 @@
                 "value": 1.0
               }
             },
-            "vector-content": "accessibility_new.svg"
+            "vector-content": "assistant_direction.svg"
           }
         ]
       }
